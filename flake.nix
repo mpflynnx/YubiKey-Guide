@@ -2,7 +2,7 @@
   description = "A Nix Flake for an xfce-based system with YubiKey setup";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     drduhConfig.url = "github:drduh/config";
     drduhConfig.flake = false;
   };
